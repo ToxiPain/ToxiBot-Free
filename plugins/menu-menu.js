@@ -80,6 +80,10 @@ _${usedPrefix}bots_
 ▋┋ _${usedPrefix}calc *<operacion math>*_
 ▋┋ _${usedPrefix}dado_
 ▋┋ _${usedPrefix}morse_
+▋┋ _${usedPrefix}chatgpt *<texto>*_
+▋┋ 🛠️ _${usedPrefix}chatgpt2 *<texto>*_
+▋┋ 🛠️ _${usedPrefix}delchatgpt
+▋┋ 🛠️ _${usedPrefix}dall-e *<texto>*_
 ■█🔰█■▱▰▱▰▱█🔰█■
 ╭────────────────╮
 *_⊱✦•MAKER/CREAR 🖍️_*
@@ -232,15 +236,13 @@ _➼✰︙OWNERS MENU 🎭_
 _${usedPrefix}reporte *<texto>*_
 *Grupo Oficial del bot:*
 https://chat.whatsapp.com/L2PCWj8QQQ6HPZvmR7izIT
-*Grupo Roleplay:*
-https://chat.whatsapp.com/LY6J8bHh7G5AwHSjUL0Pjh
  ┗ೋ━ೋ✧ೋ━ೋ┛
 *■█🔰█■▱▰▱▰▱█🔰█■
 `.trim()
 let buttons = [
-{ buttonId: '#infobot', buttonText: { displayText: '🤖 INFO-BOT 🤖' }, type: 1 },
-{ buttonId: '#owner', buttonText: { displayText: '🖤 OWNER 🖤' }, type: 1 }]
-//{ buttonId: '#infobot', buttonText: { displayText: '🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾' }, type: 1 }]
+{ buttonId: '#infobot', buttonText: { displayText: 'ℹ️ Info del Bot ℹ️' }, type: 1 },
+{ buttonId: '#owner', buttonText: { displayText: '🔏 Creador 🔏' }, type: 1 }]
+{ buttonId: '#grupos', buttonText: { displayText: '📌 Grupos OFC 📌' }, type: 1 }]
 let buttonMessage = {
 image: pp,
 caption: str.trim(),
